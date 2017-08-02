@@ -13,6 +13,6 @@ set key Left reverse left top
 
 set style data points
 
-plot 'FILE_PLACEHOLDER' using 1:2 with points pointtype 5 title "Google Player Mongo Cluster", \
+plot 'FILE_PLACEHOLDER' using 1:2 with points pointtype 5 title "Google Launcher Mongo Cluster", \
      'FILE_PLACEHOLDER' using 1:3 with points pointtype 5 title "Docker Mongo Cluster on GKE"
 
